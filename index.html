@@ -2,24 +2,68 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>color</title>
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <title>
+            页面标题 普京图片和百度链接
+        </title>
+        <style type="text/css">
+            h1 {color : red}
+            p {color :rgb(197, 37, 197)}
+        </style>
     </head>
-
-<style>
-    .center{text-align: center;}
-    .just{text-align: justify;font-size: medium;}
-    .text{text-transform: uppercase;}       /*大写*/
-    #color{color: blue;;background-color: #FFFF00}
-    h1{background-color: blue;text-indent: 50px;}       /*缩进*/
-    a{text-decoration: line-through;}
-</style>
-<body>
-    <p style="background-color: rgb(184, 132, 50);color: aqua;">hello</p>
-    <hr>
-    <p class="text">hello</p>
-    <hr>
-    <h1 class="just">This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. The paragraph is indented, aligned, and the space between characters is specified. </h1>
-    <a href="https://www.baidu.com"><img src="pujing.png" height="400"><br>link</br></a>
-</body>
+    <body style="background-color: aquamarine;"><!--背景颜色-->
+        <h1 style="text-align: center;"><!--居中对齐-->
+            第一个标题
+        </h1>
+        <header style="background-color: chocolate;text-align: right;"><!--背景颜色--><!--右对齐-->
+            页眉
+        </header><!--header 页眉 ；head 头部-->
+        <hr/><!--这是一个注释，这是一个水平线-->
+        <p>
+            <div id="section2"></div>
+            hello world<br/><br/>
+            <b>hello world</b><!--加粗文本-->
+            <b><i>这是斜体字</i></b>
+            <del>定义删除字</del>
+            <ins>定义插入字</ins>
+            <code>00010001</code>
+        </p>
+        <hr/>
+        <p>
+            hello<br/><br/>
+            <sup>he</sup>llo<sub>world</sub><!--上下标-->
+        </p>
+        <p style="font-size: smaller;background-color: rgb(19, 125, 171);">
+            hello<br/>hello world<br/><!--表示换行-->
+            你好      我是
+                   他
+            <!--不会识别多个空格，只会将多个空格变为一个-->
+        </p>
+        <a href="https://www.baidu.com"><img src="pujing.png" alt="普京" width="310" height="495"></a>
+        <br/>
+        <br/>
+        <a href="#section2">跳转到指定部分</a>
+        <a href="pujing.png" download>下载图片</a><br/>
+        <a href="https://www.baidu.com" target="_blank">target 属性</a><!--在新标签页打开链接内容-->
+        <a href="https://www.baidu.com" target="_self">在本页面打开此链接内容</a>
+        <a href="https://www.baidu.com" target="_top">跳出框架</a>
+        <header style="background-color: blanchedalmond;text-align: center;">
+            奶茶店
+        </header>
+        <hr>
+        <ul><!--Unorder list-->
+            <li>Cofe</li>
+            <li>Milk</li>
+        </ul>
+        <ol type="A"><!--Order list-->
+            <li>Black Coffee</li>
+            <ul>
+                <li>no sugar $7</li>
+                <li>30% sugar $8</li>
+                <li>50% sugar $9</li>
+                <li>100% sugar $10</li>
+            </ul>
+            <li>Green Coffee</li>
+        </ol>
+        <a href="HTML布局.html" target="_blank">点击看布局</a>
+    </body>
 </html>
